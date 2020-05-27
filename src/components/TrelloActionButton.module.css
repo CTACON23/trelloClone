@@ -1,0 +1,19 @@
+.actionButton_list{
+    opacity: 1;
+    color:white;
+    background-color:rgba(0,0,0,.15);
+}
+.actionButton_card{
+    opacity: 0.5;
+    color:inherit;
+    background-color:inherit;
+}
+.actionButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3%;
+    height: 36px;
+    width:272px;
+    padding-left: 5px;
+}
