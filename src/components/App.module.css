@@ -1,4 +1,34 @@
 .listsContainer{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+}
+.app{
+    overflow: overlay;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: darkseagreen;
+    border-radius: 5px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgreen;
 }

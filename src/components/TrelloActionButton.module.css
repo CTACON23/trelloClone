@@ -17,3 +17,25 @@
     width:272px;
     padding-left: 5px;
 }
+.actionForm textarea{
+    resize: none;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.actionForm_button button{
+    background: forestgreen !important;
+    color: white !important;
+    font-weight: bold !important;
+    margin-top: 5px !important;
+}
+.actionForm_button{
+    display: flex;
+    align-items: center;
+}
+.actionForm_button__close{
+    cursor: pointer;
+}
+.actionForm{
+    min-height: 85px;
+}
